@@ -2,7 +2,7 @@ package view;
 
 import java.util.Scanner;
 
-public class inputView {
+public class InputView {
 
     static final String COMMA = ",";
 
