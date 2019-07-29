@@ -12,4 +12,8 @@ public class RacingCars {
     public List<Car> getCarList(){
         return this.carList;
     }
+
+    public static RacingCars withCarList(List<Car> carList){
+        return new RacingCars(carList);
+    }
 }

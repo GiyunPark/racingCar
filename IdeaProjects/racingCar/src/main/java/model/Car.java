@@ -9,6 +9,7 @@ public class Car {
     public Car(String carName){
         this.carName=carName;
     }
+
     public static Car withCarName(String carName){
         return new Car(carName);
     }
